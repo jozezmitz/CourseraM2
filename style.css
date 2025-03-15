@@ -1,0 +1,66 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+p {
+   text-align: justify;
+   font-size: 15px;
+   font-family:Arial, sans-serif;
+   }
+
+ul {
+    font-size: 15px;
+    font-family:Arial, sans-serif;
+ }
+
+img {
+  width:100%;
+}
+
+div img{
+    display:grid;
+    margin:auto;
+    border-radius: 25%;
+    border-style: dotted;
+}
+
+div{
+  display: inline-block;
+  width: auto;
+  margin: 5px;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 771px) {
+    div {
+        width: 90vw;
+    }   
+    img {
+        height: 30vh;
+    }  
+}
+
+@media only screen and (min-width: 772px) {
+    div {
+        width: 45vw;
+    }   
+    img {
+        height: 30vh;
+    }  
+}
+
+@media only screen and (min-width: 998px) {
+    div {
+        width: 30vw;
+    }
+    img {
+        height: 30vh;
+    }     
+}
